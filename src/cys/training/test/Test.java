@@ -1,0 +1,25 @@
+package cys.training.test;
+
+import cys.training.Book;
+import cys.training.Movie;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Movie movie = new Movie();
+		movie.name = "JeyJey";
+		movie.year = 2000;
+
+		System.out.println(movie.name);
+		System.out.println(movie.year);
+
+		Book book = new Book();
+		book.name = "Head first Java";
+		book.price = 500;
+		book.author = "XXX";
+		System.out.println(book.name);
+		System.out.println(book.price);
+
+	}
+
+}
