@@ -1,0 +1,54 @@
+1. 
+Create a class with respective methods and test it
+Create class with respective data members and methods
+	Movie 
+	Book
+	Hospital
+	
+2. 
+A student will not be allowed to sit in exam if his/her attendence is less than 75%.
+Take following input from user
+Number of classes held
+Number of classes attended.
+And print
+percentage of class attended
+Is student is allowed to sit in exam or not.
+Also decide to allow student to sit if he/she has medical cause. 
+Ask user if he/she has medical cause or not ( 'Y' or 'N' ) and print accordingly.
+
+3. 
+If
+x = 2
+y = 5
+z = 0
+then find values of the following expressions:
+a. x == 2
+b. x != 5
+c. x != 5 && y >= 5
+d. z != 0 || x == 2
+e. !(y < 10)
+
+	
+4. 
+Ask user to enter age, sex ( M or F ), marital status ( Y or N ) and then using 
+following rules print their place of service.
+if employee is female, then she will work only in urban areas.
+
+if employee is a male and age is in between 20 to 40 then he may work in anywhere
+
+if employee is male and age is in between 40 t0 60 then he will work in urban areas only.
+
+And any other input of age should print "ERROR".
+
+5. 
+Write a program that takes as input your gross salary and your total saving and uses 
+another function named taxCalculator() to calculate your tax. 
+The taxCalculator() function takes as parameters the gross salary as well as the total savings amount.
+The tax is calculated as follows:
+(a) The savings is deducted from the gross income to calculate the taxable income.
+Maximum deduction of savings can be Rs. 100,000, even though the amount can be more than this.
+(b) For up to 100,000 as taxable income the tax is 0 (Slab 0); 
+beyond 100,000 to 200,000 tax is 10% of the difference above 100,000 (Slab 1); 
+beyond 200,000 up to 500,000 the net tax is the tax calculated from Slab 0 and Slab 1 and 
+then 20% of the taxable income exceeding 200,000 (Slab 2); if its more than 500,000, 
+then the tax is tax from Slab 0, Slab 1, Slab 2 and 30% of the amount exceeding 500,000.
