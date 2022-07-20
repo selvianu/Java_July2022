@@ -1,0 +1,45 @@
+ 1. Write a program that prints multiplication table
+ 
+ 2. Write a program to find odd's and even's till n number and also cube of given n number
+  
+ 3. Find the even digits in the given number.
+ 
+ 4. Get a login credentials from user, if valid allow to login
+ 
+ 5. Solve the equation 2y2 + y + 5 for all numbers between 5 and 10 for y.
+ 
+ 6. Write a program that will accept as input from the user, an answer to the following question: 
+ Is it raining? If it is raining, tell the user to get an umbrella. 
+ Based on the temperature, either tell the user to bring a heavy jacket (colder than 32 degrees), 
+ light jacket (between 32 and 50 degrees), or no jacket at all.
+ 
+ 7. Print the following patterns using loop :
+ 
+a.
+*
+**
+***
+****
+b.
+   *  
+ *** 
+*****
+ *** 
+   *  
+c.
+1010101
+ 10101 
+  101  
+   1   
+	
+  
+8. Write a program that prints the numbers from 1 to 100. 
+9. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. 
+For numbers which are multiples of both three and five print “FizzBuzz”."
+ 
+10. Take integer inputs from user until he/she presses q ( Ask to press q to quit after every integer input ). 
+Print average and product of all numbers.
+
+11. Calculate the sum of digits of a number given by user. E.g.-
+INPUT : 123        OUPUT : 6
+INPUT : 12345        OUPUT : 15 

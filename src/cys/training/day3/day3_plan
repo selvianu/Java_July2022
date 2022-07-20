@@ -1,0 +1,48 @@
+Day 3:
+
+Package
+
+1. Java Lang Package - java.lang - fundamentals
+2. Java Util Package - java.util - collection, date,
+3. java time package - 1.8
+4. java io - system IO,Streams,
+5. java sql - sql related 
+
+
+import package.*; 
+
+1. If you use package.* then all the classes and interfaces of this package will be accessible but not subpackages.
+
+import package.classname;
+
+2. If you import package.classname then only declared class of this package will be accessible.
+
+.fully qualified name.
+ 
+ 
+Arithmetic operators (+,-,*,/,%)
+
+Relational operators(<,<=,>,>=,==,!=)
+
+Assignment Operators (=, +=,-=,*=)
+
+Logical Operators(&&,||,!)
+
+Ternary Operator(condition?a:b)
+
+Unary Operators(++,--)
+
+bitwise operators(~, <<,>>,&,|)
+
+instanceOf - checks whether an object is an instance of a particular class. (true/false)
+
+break,continue
+
+for each
+
+Scope:
+Local Variable Scope
+Instance Variable Scope
+Argument Variables scope
+Class Scope
+Block Scope
