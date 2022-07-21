@@ -1,0 +1,46 @@
+1
+Write a program that reads an array of ints and outputs the maximum product
+of two adjacent elements in the given array of numbers.
+Sample O/P:
+Enter number of number to find the product..
+4
+Enter 4 numbers
+9
+9
+4
+5
+The maximum product: 81
+***********
+2
+Write a program that reads an array of ints and outputs the length of the
+longest sequence in strictly ascending order. Print the elements of longest
+ascending sequence in an array Elements of the sequence must go one after
+another. A single number is assumed to be an ordered sequence with the length= 1.
+
+Enter the number of elements 
+5
+Enter 5 numbers in any order to find the longest ascending sequence
+
+45
+40
+0
+39
+10
+The max value is : 2
+2numbers in ascending order
+0 39 
+*********
+3
+Write a program to find the Fascinating number
+/*
+327×2=654
+
+327×3=981
+
+Now, concatenate the above results to the given number (n).
+
+"327"+"654"+ "981"= 327654981
+
+We observe that the resultant () contains all the digits from 1 to 9, exactly once. 
+Hence, the given number 327 is a fascinating number.*/
+
