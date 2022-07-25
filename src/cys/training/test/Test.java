@@ -12,14 +12,6 @@ public class Test {
 
 		System.out.println(movie.name);
 		System.out.println(movie.year);
-
-		Book book = new Book();
-		book.name = "Head first Java";
-		book.price = 500;
-		book.author = "XXX";
-		System.out.println(book.name);
-		System.out.println(book.price);
-
 	}
 
 }

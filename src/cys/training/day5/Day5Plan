@@ -1,0 +1,7 @@
+StringBuffer 													StringBuilder
+StringBuffer operations are thread-safe and synchronized	StringBuilder operations are not thread-safe are not-synchronized.
+StringBuffer is to used when multiple threads are working on the same String 	StringBuilder is used in a single-threaded environment.
+StringBuffer performance is slower when compared to StringBuilder	StringBuilder performance is faster when compared to StringBuffer
+
+https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html
+

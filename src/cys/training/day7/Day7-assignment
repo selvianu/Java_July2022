@@ -1,0 +1,26 @@
+1
+Create a class to print an integer and a character with two methods having the same name but different sequence of the integer and the character parameters.
+For example, if the parameters of the first method are of the form (int n, char c), then that of the second method will be of the form (char c, int n).
+
+2. 
+Create a class to print the area of a square and a rectangle. 
+The class has two methods with the same name but different number of parameters. 
+The method for printing area of rectangle has two parameters which are length and breadth respetively while the other method for printing area of square has one parameter which is side of square.
+
+3. 	
+Create a class 'Student' with three data members which are name, age and address. 
+The constructor of the class assigns default values name as "unknown", age as '0' and address as "not available". It has two members with the same name 'setInfo'. First method has two parameters for name and age and assigns the same whereas the second method takes has three parameters which are assigned to name, age and address respectively. Print the name, age and address of 10 students.
+Hint - Use array of objects
+
+4.
+A boy has his money deposited $1000, $1500 and $2000 in banks-Bank A, 
+Bank B and Bank C respectively. 
+We have to print the money deposited by him in a particular bank.
+Create a class 'Bank' with a method 'getBalance' which returns balance. 
+
+5. 
+Todo App
+Register - user, task
+add an task
+{Get values using Scanner, Validate the data}
+display the list of task - array
