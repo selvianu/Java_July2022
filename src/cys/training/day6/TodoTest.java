@@ -1,6 +1,4 @@
-package cys.training.day7.test;
-
-import cys.training.day7.todo.AssignedTask;
+package cys.training.day6;
 
 public class TodoTest {
 

@@ -1,6 +1,4 @@
-package cys.training.day7.test;
-
-import cys.training.day7.ExampleEncapsulation;
+package cys.training.day6;
 
 public class TestEncapsulation {
 

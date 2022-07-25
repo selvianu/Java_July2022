@@ -1,4 +1,4 @@
-package cys.training.day7;
+package cys.training.day6;
 
 public class TestClass {
 
@@ -8,6 +8,6 @@ public class TestClass {
 		e1.percentageCalculate(67, 89, 100, 9);
 		e1.percentageCalculate(true, "Arun");
 		e1.percentageCalculate(false, null);
-	}
+			}
 
 }

@@ -1,4 +1,4 @@
-package cys.training.day7.todo;
+package cys.training.day6;
 
 public class Task {
 	private String name;
