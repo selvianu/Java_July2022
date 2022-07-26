@@ -2,5 +2,6 @@
 //Overloading - methods with same name and different args
 //Abstraction - hiding the implementation
 2 ways - abstract class and interface
-- abstract method - method with/without method definition
-if any one method is abstract, then the entire class before as abstract
+- One way - abstract method - method with/without method definition
+if any one method is abstract, then the entire class becomes as abstract
+Other way - Interface

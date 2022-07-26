@@ -1,0 +1,21 @@
+Encapsulation
+Overloading
+
+Abstraction - hiding the implementation
+2 ways - Abstract class
+some methods - may not methods definitions - declare those methods as "abstract"
+abstract methods --> abstract class --> may or maynot have abstract methods
+abstract methods-->abstract class.-->objec cant be created(bcoz abstract  - incomplete)
+extend to the Child class, where i can implement then abstract / unimplemented methods
+child class object - access
+you can override/rewrite the parent class methods in child class
+extends --> class to class / interface to interface
+
+
+Interface - all unimplemented method
+no constructor
+can't be instantiated
+
+method declarations- no method definitions
+Create a class and implement the interface - "implements"
+
