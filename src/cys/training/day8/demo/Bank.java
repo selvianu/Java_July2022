@@ -1,22 +1,25 @@
 package cys.training.day8.demo;
 
 public class Bank {
-	private String name;
-	private String branchName;
-	private String IFSC;
-	private float rateOfInterest;
-	private float balance;
+	public String customerId;
+	public int balance;
 
-	public float savings(Long accountNumber, int depositAmount) {
-		balance += depositAmount;
-		return balance;
-
+	public Bank(String customerId, int balance) {
+		this.customerId = customerId;
+		this.balance = balance;
 	}
 
-	public void deposits() {
-		System.out.println("Parent Class Deposits..");
+	public void deposit(int amount) {
+		this.balance = this.balance + amount;
 	}
 
-	public void loan() {
+	public void withdrawal(int amount) {
+		this.balance = this.balance + amount - 5;
 	}
+
+	@Override
+	public String toString() {
+		return "Bank [customerId=" + customerId + ", balance=" + balance + "]";
+	}
+
 }

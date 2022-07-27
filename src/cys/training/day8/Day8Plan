@@ -1,6 +1,49 @@
 Overriding
 Inheritance
-super
-protected
-Exception handling 
+inheritance
++ reusability
++ child common behaviour - parent method 
++ child common data - parent property
+
+ 
 Collection
+List
+Set
+Queue
+
++ group of similar objects - Integer,String,Character,Boolean,Float,Double
++ has predefined methods
++ HashSet, HashMap, ArrayList, TreeSet,TreeMap
++ java.util
++ Collection - interface 
++ Collections - util class
++ list allows duplicate, get elements in a particular position
++ set doesn't allow duplicate, can't get elements in particular position 
++ map allows <key,value> - entity , key must be unique
++ iterator, for ,for each - access elements from collection
++ iterator - only collection can be accessed and modified
+
+CRUD - Create Read Update Delete
+
+
+Exception handling
+
++Errors and Exceptions are the subclasses of java.lang.Throwable class
+
++ Error is an illegal operation performed by the user which results in the abnormal working of the program. 
++ Whereas exceptions refer to an unwanted or unexpected event, 
+which occurs during the execution of a program 
+i.e at run time, that disrupts the normal flow of the program’s instructions.
+exception - unexpected input data/result 
+Object->Throwable->Error
+			     ->exception ->Checked Exception/compile time exception - try - catch(throws) - sql, io 
+			     			 ->Unchecked exception/ Run Time Exception - Null Pointer	
++ keywords
+	+ try - inside method, error prone code 
+	+ catch - inside method, handler code 
+	+ finally - code need to be executed irrespective of exception occur
+	+ throw - explicit exception creation
+	+ throws - method header
++ types 
+	+ predefined - Checked(compile time), Unchecked(run time)
+	+ user defined - project scenario exceptions

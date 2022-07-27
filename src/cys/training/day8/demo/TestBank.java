@@ -3,19 +3,23 @@ package cys.training.day8.demo;
 public class TestBank {
 
 	public static void main(String[] args) {
+/*
+		Bank bank = new Bank("b5678", 8000);
+		System.out.println("Before deposit : " + bank);
+		bank.deposit(6000);
+		System.out.println("After deposit : " + bank);
+		System.out.println("Before withdrawal" + bank);
+		bank.withdrawal(200);
+		System.out.println("After withdrawal" + bank);
 
-		Bank bank = new Bank();
-		bank.deposits();
-		System.out.println(bank.savings(345677623l, 34000));
-		ABank banka = new ABank();
-		banka.deposits();// method of parent class
-		float savings = banka.savings(9889876534l, 56700);// method of parent class
-		System.out.println(savings);
-		banka.jewelLoan();// method of child1 class
-		BBank bankb = new BBank();
-		bankb.savings(765434567l, 120000);
-		boolean pensionScheme = bankb.pensionScheme(66);
-
+		AxisBank axis = new AxisBank("ax8966", 50000);
+		System.out.println(axis);
+		System.out.println("Before withdrawal" + axis);
+		axis.withdrawal(2000);
+		System.out.println("After withdrawal" + axis);*/
+		
+		IOB iob=new IOB();
+		iob.fixedDeposit(200, 8);
+		
 	}
-
 }

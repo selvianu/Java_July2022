@@ -14,6 +14,7 @@ public class BBank extends ABank {
 
 	public void deposits() {
 		int noOfDays = 0, amount;
+		super.deposits();
 		if (noOfDays > 91) {
 			System.out.println("ROI = 5.5%");
 		} else
