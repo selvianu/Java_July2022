@@ -1,5 +1,8 @@
 package cys.training.day8.demo;
 
+import cys.training.day9.userdefinedexception.InvalidAmountException;
+import cys.training.day9.userdefinedexception.InvalidDaysException;
+
 public class IOB extends RBI {
 	int balance = 1000;
 
@@ -9,20 +12,34 @@ public class IOB extends RBI {
 
 	public void fixedDeposit(int amount, int noOfDays) {
 		int roi = super.rateOfInterest;
-	
-		if (noOfDays > 91) {
-			roi = roi + 10;
-			try
-			{
-			balance = balance + amount + roi;
-			
+
+		roi = roi + 10;
+		try {
+			if (amount < 10) {
+				InvalidAmountException invalidAmount = new InvalidAmountException();
+				throw invalidAmount;
+			}
+			// balance = (balance + amount) * roi;
+
 			System.out.println(balance);
+		} catch (InvalidAmountException invalidAmount) {
+			invalidAmount.printStackTrace();
+
+		}
+		try {
+			if (noOfDays < 1) {
+				InvalidDaysException ie = new InvalidDaysException();
+				throw ie;
 			}
-			catch(Exception e)
-			{
-				//
-				e.printStackTrace();
-			}
+			System.out.println(balance);
+
+		} catch (InvalidDaysException ie) {
+			ie.printStackTrace();
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			System.out.println("Outside try-catch block");
 		}
 	}
+
 }

@@ -36,8 +36,9 @@ which occurs during the execution of a program
 i.e at run time, that disrupts the normal flow of the program’s instructions.
 exception - unexpected input data/result 
 Object->Throwable->Error
-			     ->exception ->Checked Exception/compile time exception - try - catch(throws) - sql, io 
-			     			 ->Unchecked exception/ Run Time Exception - Null Pointer	
+			     ->InBuilt exception ->Checked Exception/compile time exception - try - catch(throws) - sql, io 
+			     			 ->Unchecked exception/ Run Time Exception - Null Pointer
+			     ->User-defined exception	
 + keywords
 	+ try - inside method, error prone code 
 	+ catch - inside method, handler code 

@@ -23,6 +23,7 @@ public class Student {
 		}
 
 		LinkedList list = new LinkedList();
+		
 	}
 
 }

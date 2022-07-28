@@ -1,5 +1,6 @@
 package cys.training.day8.demo;
 
+ 
 public class TestBank {
 
 	public static void main(String[] args) {
@@ -19,7 +20,7 @@ public class TestBank {
 		System.out.println("After withdrawal" + axis);*/
 		
 		IOB iob=new IOB();
-		iob.fixedDeposit(200, 8);
+		iob.fixedDeposit(1000, 0);
 		
 	}
 }

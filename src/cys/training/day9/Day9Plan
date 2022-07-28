@@ -1,0 +1,44 @@
+>InBuilt exception ->Checked Exception/compile time exception - try - catch(throws) - sql, io 
+			     			 ->Unchecked exception/ Run Time Exception - Null Pointer
+			     ->User-defined exception	
++ keywords
+	+ try - inside method, error prone code 
+	+ catch - inside method, handler code 
+	+ finally - code need to be executed irrespective of exception occur
+	+ throw - explicit exception creation
+	+ throws - method header
+	
+	
+	+ try with resource - File handling
++Methods
+	+printStackTrace()
+	+toString()
+	+getMessage()
+	
++Collection Framework	
++A framework is a set of classes and interfaces which provide a ready-made architecture. 
+In order to implement a new feature or a class, there is no need to define a framework. 
++ group of objects - Integer,String,Character,Boolean,Float,Double
++ has predefined methods
+ 
++ Collection - interface -java.util.Collection --	List,Set,Queue
++ Map - interface - java.util.Map
+
++ list allows duplicate, get elements in a particular position
++ Queue interface maintains the FIFO - ticket booking
++ set doesn't allow duplicate, can't get elements in particular position 
+
++ map allows <key,value> - entity , key must be unique
+
++ iterator, for ,for each - access elements from collection
++ iterator - only collection can be accessed and modified
+
+JDBC
+1. Add jar file
+2. Understand table structure
+
+3. Load class driver
+4. Establish Connection URL,Username,Password
+5. Create the query
+6. Execute the query 
+7. Close resources (memory leakage)
