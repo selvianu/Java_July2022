@@ -1,0 +1,24 @@
++ java.lang.Object
++ java.lang.Thread
+
++ public class 
+	+extends Thread
+	+implements Runnable
+	
++ A thread is a thread of execution in a program. 
++ The Java Virtual Machine allows an application to have multiple threads of execution running concurrently.
+
+States/ LifeCycle of Thread
+	New
+	Runnable
+	Blocked
+	Waiting
+	Timed Waiting
+	Terminated
+	
++ Thread with run method, main is already a thread
++ thread object with start() - initiates the other thread
+Running tasks from Thread and Runnable
+Strategies for returning values from Threads and Runnable tasks
+wait(), notify(), join(), sleep()
+ 	

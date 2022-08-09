@@ -1,0 +1,18 @@
++ images shouldnt be in src folder
++ dont commit settings folder (add setttings folder in git ignore)
++ do not add project file.
++ do not add classpath file.
++ do not add package-info.Java file
++ use proper class name (CarRegistration.java-rename this to Car.java)
++ @Column(name = "CARREGNO") -use proper column name(CAR_REG_NO).
++ private String carRegno;Rename this to regNo
++ private String carAvailable;Use proper data type.Use boolean.
++ private Date fromDate;use proper data type.Use LocalDate
++ public class CustomerRentalsDTO -use proper package name(dto)
++ https://github.com/Aravinth55/CarRentalManagementProject/blob/main/src/main/java/com/chainsys/carrental/commonutil/Validator.java
++ @RequestMapping("/car")-use /cars
++ @GetMapping("/findcarbyid")-use path variable
++ @GetMapping("/updatecarrentalform")-use path variable
++ public CarRegistration save(CarRegistration cr)-check car registration
+no already exists.Validation missing.
++ return carRegistrationRepository.findById(id);-throw exception if id not exists.

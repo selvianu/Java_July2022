@@ -1,0 +1,39 @@
+ + java.nio
+ +  StandardOpenOptions enums are supported:
+
+		WRITE – Opens the file for write access.
+		APPEND – Appends the new data to the end of the file. This option is used with the WRITE or CREATE options.
+		TRUNCATE_EXISTING – Truncates the file to zero bytes. This option is used with the WRITE option.
+		CREATE_NEW – Creates a new file and throws an exception if the file already exists.
+		CREATE – Opens the file if it exists or creates a new file if it does not.
+		DELETE_ON_CLOSE – Deletes the file when the stream is closed. This option is useful for temporary files.
+		SPARSE – Hints that a newly created file will be sparse. This advanced option is honored on some file systems, such as NTFS, where large files with data "gaps" can be stored in a more efficient manner where those empty gaps do not consume disk space.
+		SYNC – Keeps the file (both content and metadata) synchronized with the underlying storage device.
+		DSYNC – Keeps the file content synchronized with the underlying storage device.
+		Folder SubFolder Creation
+		Printing File name
+		List all files - folder in directory
+		count of character, words, line
+
++ File - txt, doc, pdf - Character Stream
+ 	   - Raw Data - images - Byte Stream
+ + write to file operation.
+ 	+ File
+ 	+ FileWriter
+ 	+ BufferedWriter
+ 	+ FileOutputStream
+ 	
++ FileReader/Writer
+
++ java.io - package
+	+ canRead()
+	+ canWrite
+	+ canExecute()
+	+ delete
+	+ equals
+	+ exits()
+	+ createNewFile()
+	
++ BufferedWriter/Reader
+	+ flush and close
+	+ data from buffer and not from storage/drive

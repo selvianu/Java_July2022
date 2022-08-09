@@ -1,0 +1,30 @@
++ Date class available in java.time package - current date and time.
++ The LocalDate represents a date in ISO format (yyyy-MM-dd) without time
+	
++ Methods
++ Three ways to compare two dates
+	+ getTime( ) 
+	+ before( ), after( ), and equals( ). 
+	+ compareTo( ) method, defined by Comparable interface and implemented by Date.
+	
++ equals
++ plusDays
++ minusDays
++ getMonth
++ LocalDate previousMonthSameDay = LocalDate.now().minus(1, ChronoUnit.MONTHS);
++ DateTimeFormatter
++ ChronoUnit.DAYS.between(today, endDate);
++ Date Conversion 
+
+
+
+
+
+
+
+Coupled -tightly coupled system
+Decoupled - loosely coupled system
+Engine - 
+	+ An engine can be fixed to any Bike - decoupled
+
+	

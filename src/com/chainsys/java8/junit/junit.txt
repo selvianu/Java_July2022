@@ -1,0 +1,29 @@
++ JUnit 
+	+ JUnit is an open source unit testing framework for Java 
+	+ It is important for test driven development
+	+ and is a family of unit testing frameworks collectively -  xUnit.
++ Features
+	+ It allows to write code faster - which increases quality
+	+ annotations - to identify test methods
+	+ Test runners to run the test automatically
+	+ color bars : green : TC pass; red : TC fail
++ JUnit Framework
+	+ Test fixtures
+	+ Test suites
+	+ Test Runners
+	+ JUnit classes	
++ Fixtures
+	+ fixed state of a set of objects used as a baseline for running tests. 
+	The purpose of a test fixture is to ensure that there is a well-known and fixed environment in which tests are run so that results are repeatable. 
+	It includes −
+		+ setUp() method, which runs before every test invocation.@BeforeClass
+		+ tearDown()method, which runs after every test method.@AfterClass
+		
++ Test Suites
+	+ If we want to execute multiple test cases, all are combined in same class@Suite
+
++ JUnit Classes
+	+ used to writting and testing JUnits
+		+ Assertions - validating expected output with actual output
+		+ TestCase
+		+ TestResult

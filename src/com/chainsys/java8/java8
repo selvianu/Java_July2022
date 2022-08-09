@@ -1,0 +1,35 @@
++ Functional interface - SAM
+	+ Functional interfaces are available and we can also create
+	+ Runnable-run(),Callable-call(),Comparable-compareTo()
+	+ jdk 8 -> interface can have method definitions 
+	+ interface with abstract method
+	+ @FunctionalIterface allows only one abstract method
+	+ other than that, interface can have many default or static methods
+		+ default - functional interface gives the default method
+	
++ Lambda - Anonymous fun/closure
+	+ Functional programming approach
+	+ Concise coding
+	+ Remove - access modifier, return datatype, name
++ focus only one single abstract method from fn interface
+	
++ Streams
+	+ created in intention with parallel execution
+	+ used to process collections of objects. 
+	+ A stream is a sequence of objects that supports 
+	various methods which can be pipelined to produce the desired result.
+	+ imperative code --> functional coding
+	+ to support collection Framework
+	+ manual and synchronous/time consuming process - overcome-Streams
+	+ parallel processing - better performance, readable
+	+ Stream is lazy and evaluates code only when required.
+		+ source - Intermediate (filter,map,..)-expected result/terminal
+		+ filter (predicate(condition)) - filters based on the predicate
+		+ map	- map and collect to any collection interface - list/set
+		+ Set	
+		
++ Method and Constructor reference
+	+ A method reference is similar to lambda expression used to refer a method 
+	without invoking it while constructor reference used to refer to the constructor 
+	without instantiating the named class.
+	

@@ -1,3 +1,225 @@
+<<<<<<< HEAD
+Assignment
+
+Create a class and test it
+	Movie 
+	Book
+	Hospital
+	
+The class must have only 5 data members (Create a Test class and test the class) 
+-----------------------
+ Check out what happens if we use logical operators(<,<=,>,>=,==) directly to the variables and print the values
+ ---------------------
+Check out, what happens when the if-else condition is ended with a semicolon
+----------------------
+A shop will give discount of 10% if the cost of purchased quantity is more than 1000.
+Ask user for quantity
+Suppose, one unit will cost 100.
+Judge and print total cost for user.
+------------------------
+A company decided to give bonus of 5% to employee if his/her year of service is more than 5 years.
+Ask user for their salary and year of service and print the net bonus amount.
+------------------------
+A student will not be allowed to sit in exam if his/her attendence is less than 75%.
+Take following input from user
+Number of classes held
+Number of classes attended.
+And print
+percentage of class attended
+Is student is allowed to sit in exam or not.
+Also decide to allow student to sit if he/she has medical cause. 
+Ask user if he/she has medical cause or not ( 'Y' or 'N' ) and print accordingly.
+---------------
+If
+x = 2
+y = 5
+z = 0
+then find values of the following expressions:
+a. x == 2
+b. x != 5
+c. x != 5 && y >= 5
+d. z != 0 || x == 2
+e. !(y < 10)
+-------------- 
+Ask user to enter age, sex ( M or F ), marital status ( Y or N ) and then using 
+following rules print their place of service.
+if employee is female, then she will work only in urban areas.
+
+if employee is a male and age is in between 20 to 40 then he may work in anywhere
+
+if employee is male and age is in between 40 t0 60 then he will work in urban areas only.
+
+And any other input of age should print "ERROR".
+
+-------------- 
+Write a program that takes as input your gross salary and your total saving and uses 
+another function named taxCalculator() to calculate your tax. 
+The taxCalculator() function takes as parameters the gross salary as well as the total savings amount.
+The tax is calculated as follows:
+(a) The savings is deducted from the gross income to calculate the taxable income.
+Maximum deduction of savings can be Rs. 100,000, even though the amount can be more than this.
+(b) For up to 100,000 as taxable income the tax is 0 (Slab 0); 
+beyond 100,000 to 200,000 tax is 10% of the difference above 100,000 (Slab 1); 
+beyond 200,000 up to 500,000 the net tax is the tax calculated from Slab 0 and Slab 1 and 
+then 20% of the taxable income exceeding 200,000 (Slab 2); if its more than 500,000, 
+then the tax is tax from Slab 0, Slab 1, Slab 2 and 30% of the amount exceeding 500,000.
+
+----------------
+Write a program that prints multiplication table
+ 
+Write a program to find odd's and even's till n number and also cube of given n number
+  
+Find the even digits in the given number.
+ 
+Get a login credentials from user, if valid allow to login
+ 
+Solve the equation 2y2 + y + 5 for all numbers between 5 and 10 for y.
+ 
+Write a program that will accept as input from the user, an answer to the following question: 
+Is it raining? If it is raining, tell the user to get an umbrella. 
+Based on the temperature, either tell the user to bring a heavy jacket (colder than 32 degrees), 
+light jacket (between 32 and 50 degrees), or no jacket at all.
+ 
+Print the following patterns using loop :
+ 
+a.
+*
+**
+***
+****
+b.
+   *  
+ *** 
+*****
+ *** 
+   *  
+c.
+1010101
+ 10101 
+  101  
+   1   
+	
+-------  
+Write a program that prints the numbers from 1 to 100. 
+But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. 
+For numbers which are multiples of both three and five print “FizzBuzz”."
+
+-------- 
+Take integer inputs from user until he/she presses q ( Ask to press q to quit after every integer input ). 
+Print average and product of all numbers.
+
+-------
+Calculate the sum of digits of a number given by user. E.g.-
+INPUT : 123        OUPUT : 6
+INPUT : 12345        OUPUT : 15 
+
+
+---------
+Write a program that reads an array of int and outputs the maximum product
+of two adjacent elements in the given array of numbers.
+Sample O/P:
+Enter number of number to find the product..
+4
+Enter 4 numbers
+9
+9
+4
+5
+The maximum product: 81
+
+***********
+Write a program that reads an array of ints and outputs the length of the
+longest sequence in strictly ascending order. Print the elements of longest
+ascending sequence in an array Elements of the sequence must go one after
+another. A single number is assumed to be an ordered sequence with the length= 1.
+
+Enter the number of elements 
+5
+Enter 5 numbers in any order to find the longest ascending sequence
+
+45
+40
+0
+39
+10
+The max value is : 2
+2numbers in ascending order
+0 39 
+
+*********
+Write a program to find the Fascinating number
+/*
+327×2=654
+
+327×3=981
+
+Now, concatenate the above results to the given number (n).
+
+"327"+"654"+ "981"= 327654981
+
+We observe that the resultant () contains all the digits from 1 to 9, exactly once. 
+Hence, the given number 327 is a fascinating number.*/
+
+------------
+Write a program to check if the letter 'e' is present in the word 'Umbrella'.
+
+Write a program to check if the word 'orange' is present in the "This is orange juice".
+
+Write a program to find the first and the last occurence of the letter 'o' and character ','
+
+Write a program that takes your full name as input and displays the abbreviations of the first and middle names 
+except the last name which is displayed as it is. For example, if your name is Robert Brett Roser, then the output should be R.B.Roser.
+
+Write a program to find the number of vowels, consonents, digits and white space characters in a string.
+
+Input a string of alphabets. Find out the number of occurrence of all alphabets in that string. 
+Find out the alphabet with maximum occurrence.
+
+Write down the names of 10 of your friends in an array and then sort those in alphabetically ascending order.
+
+Write a program to check if the two strings entered by user are anagrams or not. 
+Two words are said to be anagrams if the letters of one word can be rearranged to form the other word. 
+For example, jaxa and ajax are anagrams of each other.
+
+Input a string which contains some palindrome substrings. 
+Find out the position of palindrome substrings if exist and replace it by *. 
+(For example if input string is “bob has a radar plane” then it should convert in “*** has a ***** plane”.
+
+Write a program to replace a given substring in a sentence with another string. 
+For example, in the sentence, ” A batman with bat” if we replace ”bat” with ”snow”, the new sentence should be printed as ”A snowman with snow”.
+
+Write a program to reverse individual words in a string, 
+where each word may be delimited by a dot, comma, space or tab, like www.google.com should become www.elgoog.moc.
+
+Create a class to print an integer and a character with two methods having the same name but different sequence of the integer and the character parameters.
+For example, if the parameters of the first method are of the form (int n, char c), then that of the second method will be of the form (char c, int n).
+ 
+Create a class to print the area of a square and a rectangle. 
+The class has two methods with the same name but different number of parameters. 
+The method for printing area of rectangle has two parameters which are length and breadth respetively while the other method for printing area of square has one parameter which is side of square.
+
+Create a class 'Student' with three data members which are name, age and address. 
+The constructor of the class assigns default values name as "unknown", age as '0' and address as "not available". It has two members with the same name 'setInfo'. First method has two parameters for name and age and assigns the same whereas the second method takes has three parameters which are assigned to name, age and address respectively. Print the name, age and address of 10 students.
+Hint - Use array of objects
+
+A boy has his money deposited $1000, $1500 and $2000 in banks-Bank A, 
+Bank B and Bank C respectively. 
+We have to print the money deposited by him in a particular bank.
+Create a class 'Bank' with a method 'getBalance' which returns balance. 
+
+Create a class named 'Member' having the following members:
+Data members
+1 - Name
+2 - Age
+3 - Phone number
+4 - Address
+5 - Salary
+It also has a method named 'printSalary' which prints the salary of the members.
+Two classes 'Employee' and 'Manager' inherits the 'Member' class. 
+The 'Employee' and 'Manager' classes have data members 'specialization' and 'department' respectively. 
+Now, assign name, age, phone number, address and salary to an employee and a manager by making an object of both of these classes and print the same.
+
+=======
 Assignment
 
 Create a class and test it
@@ -218,4 +440,5 @@ Two classes 'Employee' and 'Manager' inherits the 'Member' class.
 The 'Employee' and 'Manager' classes have data members 'specialization' and 'department' respectively. 
 Now, assign name, age, phone number, address and salary to an employee and a manager by making an object of both of these classes and print the same.
 
+>>>>>>> a8e3afec1ae00c552e073a4d07e40e3c67882081
 Create an userdefined exception for Unauthorized Login.

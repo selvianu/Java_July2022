@@ -1,0 +1,23 @@
++ A Java object is serializable if and only if its class or any of its parent classes implement either the java.io.Serializable interface or its subinterface
+
++ In the Serialization process, 
+we convert an object’s state into a byte stream (in a file )
+so that it could be transferred from one JVM to the other and 
+revert the byte stream back into the original object.
+
++ transient keyword - it will not persist the data
+	+transient variables:- A variable defined with transient keyword is not serialized 
+	during serialization process.
+	This variable will be initialized with default value during deserialization. 
+	(i.e: for objects/string it is null, for int it is 0).
+	
++ static
+	+A variable defined with static keyword is not serialized during serialization process.
+	This variable will be loaded with current value defined in the class during deserialization.
+
++ SerialVersionUID
+	used during deserialization to verify that the sender and receiver of a 
+	serialized object have loaded classes for that object that are compatible 
+	If the deserialization object is different than serialization, then it can throw an InvalidClassException
+	
++ JDK tool “serialver“. This tool generates the serialVersionUID

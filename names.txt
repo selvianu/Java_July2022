@@ -1,0 +1,2 @@
+using buffered Writer
+Using new line in BWriter
