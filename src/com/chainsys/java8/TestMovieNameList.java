@@ -32,7 +32,7 @@ public class TestMovieNameList {
 		for (Movie movie : movieList) {
 			movieNames.add(movie.title);
 		}
-		
+			
 		//Using Streams - map method
 		List<String> movieNameList = movieList.stream().map(m -> m.title).collect(Collectors.toList());
 		System.out.println(movieNameList);

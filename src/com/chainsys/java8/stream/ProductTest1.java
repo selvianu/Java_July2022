@@ -17,5 +17,6 @@ public class ProductTest1 {
 		List<Integer> productPrice = productList.stream().filter(i -> i.price < 30000).map(p -> p.price)
 				.collect(Collectors.toList());
 		System.out.println(productPrice);
+		productList.stream();
 	}
 }
